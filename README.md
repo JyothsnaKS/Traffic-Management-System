@@ -15,6 +15,10 @@ Traffic Monitoring and Management is one of the most difficult challenges being 
 
 We here in this project have used an Arduino UNO Microcontroller to which have been attached IR sensors and the RFID reader module. The IR Sensors detect any vehicle in proximity. The IR emitter emits out IR radiations into the ambience which is then picked up by the IR receiver. Based on the intensity of the radiation sensed by the receiver, the proximity of the object is updated to the Arduino by the sensor. The RF reader module is also attached to the Arduino. This sensor detects any RF ID tag in its proximity and updates the Arduino with the RFID tag number. Here, we have used a passive RFID tag. The RF ID Tag comes along with a coil and a chip inside it. When this ID comes in good proximity to the reader, electricity is induced in the coil by the method of electromagnetic induction which powers up the chip. The ID is then sent electromagnetically to the receiver by the chip.
 
+## Overview
+
+![image](https://user-images.githubusercontent.com/14028499/46258298-a899b280-c4e5-11e8-86e1-9dd5e16d5e41.png)
+
 ## Implementation
 The IR Proximity Sensors are placed at regular intervals of 8cm on the sides of the lanes in our model. We are considering a three lane junction and hence using 6 sensors (2 for each lane). For demo purpose, we have RF ID reader only for one lane. RGB LED’s are used as signals
 
